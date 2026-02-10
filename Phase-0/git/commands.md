@@ -88,3 +88,27 @@ Removes files from both the working directory and Git tracking.
 Lists all branches in the repository.
 
 `git branch`
+
+### Create New Branch
+
+Creates a new branch.
+
+`git branch <Name>`
+
+### Switch between Branches
+
+Switches to another branch.
+
+`git checkout <Branch-Name>`
+
+### Merge Branches
+
+Merges another branch into the current branch.
+
+`git merge <Branch-Name>`
+
+### Delete a Branch
+
+Delete a branch.
+
+`git branch -d <Branch-Name`
