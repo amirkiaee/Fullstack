@@ -15,7 +15,7 @@ Initializes a new Git repository in the current folder.
 
 Clones an existing repository from GitHub to the local machine.
 
-`git clone <Link>`
+`git clone <repository-url>`
 
 ## 🔹 Checking Repository State
 
@@ -41,7 +41,7 @@ Displays the commit history of the repository.
 
 Shows detailed information about a specific commit or tag.
 
-`git show <CommitHash-or-TagName>`
+`git show <commithash-or-tagName>`
 
 ## 🔹 Staging & Committing
 
@@ -53,4 +53,38 @@ Adds files to the staging area.
   `git add -A`
 
 - a particular file:
-  `git add <file-name.format>`
+  `git add <file-name>`
+
+### git commit
+
+Creates a commit with a descriptive message.
+
+`git commit -m "commit message"`
+
+### git commit and sign
+
+Creates a signed commit using a GPG key.
+
+`git commit -S -m "signed commit message"`
+
+### git reset
+
+Removes files from the staging area (without deleting them).
+
+`git reset <file-name>`
+
+## 🔹 Removing Files
+
+### git rm
+
+Removes files from both the working directory and Git tracking.
+
+`git rm <file-name>`
+
+## 🔹 Branching
+
+### git branch
+
+Lists all branches in the repository.
+
+`git branch`
