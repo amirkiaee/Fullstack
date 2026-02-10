@@ -5,13 +5,13 @@ Each command is explained briefly with its real purpose in daily development.
 
 ## 🔹 Repository Setup
 
-### git init
+### Create New git Repository
 
 Initializes a new Git repository in the current folder.
 
 `git init`
 
-### git clone
+### Clone a Repository
 
 Clones an existing repository from GitHub to the local machine.
 
@@ -19,25 +19,25 @@ Clones an existing repository from GitHub to the local machine.
 
 ## 🔹 Checking Repository State
 
-### git status
+### git Status
 
 Shows the current state of the working directory and staging area.
 
 `git status`
 
-### git diff head
+### git Difference
 
 Shows differences between the current working directory and the last commit.
 
 `git diff HEAD`
 
-### git log
+### Commits History
 
 Displays the commit history of the repository.
 
 `git log`
 
-### git show
+### Show Detailed (Commit or Tag)
 
 Shows detailed information about a specific commit or tag.
 
@@ -45,7 +45,7 @@ Shows detailed information about a specific commit or tag.
 
 ## 🔹 Staging & Committing
 
-### git add
+### Add File to Stage
 
 Adds files to the staging area.
 
@@ -55,19 +55,19 @@ Adds files to the staging area.
 - a particular file:
   `git add <file-name>`
 
-### git commit
+### Create Commit
 
 Creates a commit with a descriptive message.
 
 `git commit -m "commit message"`
 
-### git commit and sign
+### Create Commit and Sign it
 
 Creates a signed commit using a GPG key.
 
 `git commit -S -m "signed commit message"`
 
-### git reset
+### Restore from Stage
 
 Removes files from the staging area (without deleting them).
 
@@ -75,7 +75,7 @@ Removes files from the staging area (without deleting them).
 
 ## 🔹 Removing Files
 
-### git rm
+### Remove File
 
 Removes files from both the working directory and Git tracking.
 
@@ -83,7 +83,7 @@ Removes files from both the working directory and Git tracking.
 
 ## 🔹 Branching
 
-### git branch
+### Show all Branches
 
 Lists all branches in the repository.
 
