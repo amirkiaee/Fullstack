@@ -1,4 +1,4 @@
-# Git Commands
+# Git Commands in Phase 0
 
 This document contains the essential Git commands I learned in Phase 0.
 Each command is explained briefly with its real purpose in daily development.
