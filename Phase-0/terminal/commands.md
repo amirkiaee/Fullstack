@@ -1,4 +1,4 @@
-# Terminal Commands (Linux / Git Bash)
+# Terminal Commands (Linux / Git Bash) in Phase 0
 
 ## 🔹 Navigation
 
