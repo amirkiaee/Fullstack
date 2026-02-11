@@ -24,8 +24,8 @@
 
 ## 🛠️ Practice
 
-- I practice with a folder named my-web and some folders and files in it.
-- I practice with a folder named npm-practice.
+- I practice with a directory named `my-web` with some subdirectory and files inside it.
+- I practice with a directory named `npm-practice`.
 
 ## 🧠 Key Takeaways
 
