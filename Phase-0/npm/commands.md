@@ -2,6 +2,8 @@
 
 ## npm Version
 
+show what versin installed in your OS
+
 `npm -v`
 `npm --version`
 
