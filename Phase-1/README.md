@@ -1,4 +1,4 @@
-#Phase 1 – Learning Basic HTML & CSS (7–10 Days)
+# Phase 1 – Learning Basic HTML & CSS (7–10 Days)
 
 ## Purpose
 
