@@ -47,3 +47,64 @@ By the end of Phase 1, I should be able to:
 
 - Attributes (`class`, `id`, `src`, `href`, `alt`)
 - Basic accessibility concepts (`alt text`, `semantics`)
+
+### CSS Fundamentals
+
+- What CSS is and how it connects to HTML
+- CSS syntax (selectors, properties, values)
+- Ways to write CSS:
+
+* External stylesheet (main focus)
+
+- Basic selectors:
+
+* Element
+* Class
+* ID
+
+- Colors and units:
+
+* px, %, rem
+
+- Typography:
+
+* font-family
+* font-size
+* font-weight
+* line-height
+
+- The CSS Box Model:
+
+* content
+* padding
+* border
+* margin
+
+### Layout Basics
+
+- Display types:
+
+* block
+* inline
+* inline-block
+
+- Flexbox fundamentals:
+
+* display: flex
+* flex-direction
+* justify-content
+* align-items
+
+- Simple page layouts (header + content + footer)
+
+### Project Structure
+
+- Basic folder structure for static websites
+- Separating HTML and CSS files
+- Naming conventions for files and classes
+
+## Out of Scope
+
+The following are intentionally included in Phase 2:
+
+- CSS preprocessors (Sass / SCSS)
