@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--* Universal Selector * -->
+    <!-- <style>
+      * {
+        color: red;
+        margin: 0;
+      }
+    </style>
+
+    <div class="parents">
+      <p class="red">red</p>
+      <p class="green">green</p>
+      <p class="blue">blue</p>
+      <div class="parents__content">
+        <p class="blue">blue</p>
+      </div>
+    </div>
+    <div class="Cards">
+      <p class="red">red</p>
+      <p class="green">green</p>
+      <div class="parents__content">
+        <p class="blue">blue</p>
+        <div class="parents__child">
+          <p class="yellow">yellow</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!--? Or selector -->
+
+    <!-- <style>
+      div,
+      h1 {
+        color: red;
+      }
+    </style>
+
+    <div>Fatemeh</div>
+    <h1>Zahra</h1>
+    <p>Ali</p>
+    <span>Reza</span> -->
+
+    <!--! And selector -->
+
+    <!-- <style>
+      h1.test {
+        color: red;
+      }
+
+      h1 .test2 {
+        color: blue;
+      }
+    </style>
+
+    <div>Fatemeh</div>
+    <h1>Zahra</h1>
+    <h1 class="test">Ali</h1>
+    <h1>
+      <p class="test2">Reza</p>
+    </h1> -->
+
+    <!--* General Sibling Selector -->
+
+    <!-- <style>
+      h1 ~ div {
+        color: green;
+      }
+    </style>
+
+    <div>Ali</div>
+    <div>Fatemeh</div>
+    <h1>Farhad</h1>
+    <div>Zahra</div>
+    <div>Reza</div>
+    <div>Ahmad</div> -->
+
+    <!--? Adjacent Sibling Selector -->
+
+    <!-- <style>
+      h1 + div {
+        color: red;
+      }
+    </style>
+
+    <div>Ali</div>
+    <div>Fatemeh</div>
+    <h1>Farhad</h1>
+    <p>
+      <div>Mohsen</div>
+    </p>
+    <div>Zahra</div>
+    <div>Reza</div>
+    <div>Ahmad</div> -->
+
+    <!--! Attribute Present Selector -->
+
+    <!-- <style>
+      a[href="https://time.ir"] {
+        color: green;
+      }
+      a[href$="org"] {
+        color: red;
+      }
+      a[href^="speed"] {
+        color: orange;
+      }
+      a[href*="digi"] {
+        color: rgb(170, 170, 5);
+      }
+      div[id="reza"] {
+        color: blueviolet;
+      }
+    </style>
+
+    <a href="https://time.ir">time</a>
+    <a href="https://digikala.com">digi kala</a>
+    <a href="https://sanjesh.org">sanjesh</a>
+    <a href="https://varzesh3.com">varzesh 3</a>
+    <a href="speedtest.com">speed test</a>
+
+    <div id="reza">Reza</div>
+    <div>Ahmad</div> -->
+  </body>
+</html>
