@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamrin2</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        direction: rtl;
+      }
+      #Header {
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+      }
+      .HeaderContent {
+        width: 1200px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      .HeaderContent_Right {
+        width: 900px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      #header-buy {
+        background-color: rgb(136, 183, 221);
+        color: white;
+        padding: 10px 40px;
+        border-radius: 20px;
+      }
+      .header-link {
+        font-size: 18.5px;
+        margin-right: 50px;
+      }
+      .HeaderContent_Left {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .header-image {
+        width: 100%;
+        height: 40px;
+      }
+    </style>
+    <header id="Header">
+      <div class="HeaderContent">
+        <div class="HeaderContent_Right">
+          <a id="header-buy">Buy Now</a>
+          <a class="header-link">Account</a>
+          <a class="header-link">Help Center</a>
+          <b><a class="header-link">Blog</a></b>
+          <a class="header-link">Templates</a>
+          <a class="header-link">Features</a>
+        </div>
+        <div class="HeaderContent_Left">
+          <img class="header-image" src="images/WS-Logo-2023.png" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
