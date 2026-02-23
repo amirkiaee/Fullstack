@@ -1,0 +1,13 @@
+@font-face {
+  font-family: iransansweb;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url(fonts/iransanswebmedium.ttf) format("truetypefont"),
+    url(fonts/iransanswebmedium.woff) format("woff"),
+    url(fonts/iransanswebmedium.eot?#iefix) format("eot");
+}
+
+body {
+  font-family: iransansweb, Tahoma;
+}
